@@ -1,4 +1,4 @@
-# An Aarmory of Anteaters (A³)
+# An Aarmory of Anteatrs (A³)
 
 A Winter Quarter 2023 VGDC Game Project.
 
