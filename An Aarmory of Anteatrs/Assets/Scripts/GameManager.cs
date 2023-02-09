@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Instance = this;
-        currency = 10;
     }
 
     void Update()

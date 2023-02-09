@@ -20,7 +20,7 @@ public class StepController : MonoBehaviour
         if (null != StepCounter.current)
         {
             InputSystem.EnableDevice(StepCounter.current);
-            // InputSystem.AddDevice<StepCounter>();    // This breaks it???
+            // InputSystem.AddDevice<StepCounter>();    // This breaks it on Android???
             Debug.Log("StepCounter initialized!");
             SC = true;
 
