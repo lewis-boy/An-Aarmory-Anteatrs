@@ -67,18 +67,18 @@ public class StepController : MonoBehaviour
             text.text = "Step Counter: Null";
         }
 
-#if UNITY_ANDROID
-        if (!Permission.HasUserAuthorizedPermission("android.permission.ACTIVITY_RECOGNITION"))
-        {
-            // If permission was revoked or some other weirdness, fallback to "Step Counter: Null".
-            SC = false;
-        }
-        else if (!SC)
-        {
-            // If it wasn't working prior but now has permission, start working.
-            SC = true;
-        }
-#endif
+// #if UNITY_ANDROID
+//         if (!Permission.HasUserAuthorizedPermission("android.permission.ACTIVITY_RECOGNITION"))
+//         {
+//             // If permission was revoked or some other weirdness, fallback to "Step Counter: Null".
+//             SC = false;
+//         }
+//         else if (!SC)
+//         {
+//             // If it wasn't working prior but now has permission, start working.
+//             SC = true;
+//         }
+// #endif
 
     }
 }
