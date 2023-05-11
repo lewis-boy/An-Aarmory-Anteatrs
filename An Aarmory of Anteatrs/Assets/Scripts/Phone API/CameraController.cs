@@ -9,7 +9,7 @@ using UnityEngine.Android;
 using ZXing;
 #endif
 
-public class PhoneCamera : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
     void Start()
     {
