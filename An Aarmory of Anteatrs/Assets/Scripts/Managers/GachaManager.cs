@@ -10,6 +10,7 @@ public class GachaManager : MonoBehaviour
     CardBehaviour card; //HOW our card is displayed and affected on the canvas. This takes in the CardBehaviour Script which is found on the characterCardPrefab
 
     public void Gacha(){
+        Debug.Log("Pushed button");
         if(characterCard == null){
             characterCard = Instantiate(characterCardPrefab, spawnPoint.position, Quaternion.identity) as GameObject;
             characterCard.transform.SetParent(parentCanvas);
